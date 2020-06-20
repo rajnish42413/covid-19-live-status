@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Spinny",
+    "slug": "spinny",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.spinny.test",
+      "versionCode": 6,
+      "permissions": [
+        "INTERNET",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to update workspaces and resources photo and to upload host creativity."
+      },
+      "bundleIdentifier": "com.spinny.test",
+      "supportsTablet": true
+    },
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/spinny.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/spinny.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "",
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
